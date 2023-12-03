@@ -1,37 +1,43 @@
-# File Deletion Script with Recycle Bin Option
+# FileMaster-Tool / 文件大师工具
 
-## Overview
-This script, created by Kinnto Lee, is a Windows batch file designed to manage file deletion in a specific directory. It offers two modes of operation: Fast Mode and Normal Mode. In Fast Mode, files are permanently deleted, while in Normal Mode, files are safely moved to the Recycle Bin. This allows for recovery if needed.
+## English
 
-## Features
-- **Two Modes of Operation**: Choose between Fast Mode for quicker deletion or Normal Mode for safer, recoverable deletion.
-- **Custom File Extension Selection**: Users can specify a file extension to target specific file types, or choose to affect all files.
-- **Progress Display**: The script shows the progress of file deletion, including a percentage complete indicator.
+### Overview
+FileMaster-Tool is a versatile batch script for Windows, specializing in efficient file management. It features a powerful 'Duplicate Remove' function for decluttering your directory by removing redundant files, alongside the 'ExtOrganizer' for organizing files by extension.
 
-## Prerequisites
-- Windows Operating System
-- PowerShell (for Normal Mode operation)
+### Highlighted Feature: Duplicate Remove
+**Duplicate Remove** is designed to intelligently identify and remove duplicate files in your directory. It compares files based on size and name length, ensuring that only one instance of any duplicate file is kept. This feature is particularly useful for freeing up space and simplifying your file system.
 
-## Usage
-1. Download the `FileDeletionScript.bat` file.
-2. Place it in the directory containing the files you wish to process.
-3. Run the script by double-clicking on it or executing it from the command line.
-4. Follow the on-screen prompts to choose the operation mode and specify the file extension (if needed).
+### Other Features
+- **ExtOrganizer**: Organizes files into separate folders based on their file extensions, providing a cleaner and more structured directory layout.
 
-## Modes
-- **Fast Mode**: Files are permanently deleted. This mode is faster but does not allow for file recovery.
-- **Normal Mode**: Files are moved to the Recycle Bin. This mode is slower but allows for file recovery.
+### How to Use
+1. Download `FileMaster-Tool.bat`.
+2. Place it in the desired directory.
+3. Run the script and choose between `Duplicate Remove` or `ExtOrganizer`.
+4. Follow the on-screen instructions.
 
-## Warning
-This script involves deleting files, which can be a potentially destructive operation. Always ensure you have backups of important data before running this script. The author is not responsible for any loss of data resulting from the use of this script.
-
-## License
-[Specify the license here, if applicable]
-
-## Acknowledgments
-- Script created by Kinnto Lee
-- Community contributions (if any)
+### Warning
+This script can permanently delete files or move them around, which might disrupt your current file organization. Always ensure to back up important data before use.
 
 ---
 
-For more information, issues, or feature requests, please contact [Your Contact Information or GitHub Profile Link].
+## 中文 (Chinese)
+
+### 概览
+FileMaster-Tool 是一个适用于Windows的多功能批处理脚本，专门用于高效的文件管理。它具有强大的“重复删除”功能，用于通过删除多余的文件来整理您的目录，以及“ExtOrganizer”用于按扩展名组织文件。
+
+### 重点功能：重复删除
+**重复删除** 功能旨在智能识别并删除目录中的重复文件。它通过比较文件的大小和名称长度来工作，确保任何重复文件只保留一个实例。这个功能特别适用于释放空间和简化文件系统。
+
+### 其他功能
+- **ExtOrganizer**: 根据文件扩展名将文件组织到单独的文件夹中，提供更清洁和更有结构的目录布局。
+
+### 如何使用
+1. 下载 `FileMaster-Tool.bat`。
+2. 将其放在所需目录中。
+3. 运行脚本并在 `Duplicate Remove` 或 `ExtOrganizer` 之间选择。
+4. 按照屏幕上的指示操作。
+
+### 警告
+此脚本可能会永久删除文件或移动文件，这可能会打乱您当前的文件组织。使用前请务必备份重要数据。
