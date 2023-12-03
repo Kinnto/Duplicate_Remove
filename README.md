@@ -7,7 +7,6 @@ This script, created by Kinnto Lee, is a Windows batch file designed to manage f
 - **Two Modes of Operation**: Choose between Fast Mode for quicker deletion or Normal Mode for safer, recoverable deletion.
 - **Custom File Extension Selection**: Users can specify a file extension to target specific file types, or choose to affect all files.
 - **Progress Display**: The script shows the progress of file deletion, including a percentage complete indicator.
-- **Authorship Notation**: The script prominently displays its authorship for user awareness.
 
 ## Prerequisites
 - Windows Operating System
