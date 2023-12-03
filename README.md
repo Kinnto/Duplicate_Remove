@@ -1,4 +1,4 @@
-# FileMaster-Tool / 文件大师工具
+# FileMaster-Tool / 文件管理工具
 
 ## English
 
